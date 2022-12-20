@@ -47,14 +47,16 @@ body {
   border-bottom: 1px solid var(--dark-gray);
 }
 .card-body-user {
+  width: 200px;
+  height: 200px;
   border: 2px solid white;
   border-radius: 50%;
-  margin-top: -53px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  margin-top: -105px;
+  background-color: white;
 }
 .card-body-nombre {
   font-size: 1.8rem;
+  text-transform: capitalize;
 }
 .card-body-nombre span {
   color: var(--dark-gray);
@@ -62,7 +64,7 @@ body {
 }
 .card-body-localidad {
   color: var(--dark-gray);
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-top: 0;
   margin-bottom: 2rem;
 }

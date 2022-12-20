@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 1 FrontEnd Mentor</title>
-    <link rel="stylesheet" href="./estilos.css/nomalize.css">
+    <!--<link rel="stylesheet" href="./estilos.css/nomalize.css">-->
     <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,9 @@
   
 </head>
 <body>
-    <main class="flex">
+    <main class="flex"></main>
+
+    <template id="template-card">
         <article class="card">
             <img src="./images/bg-pattern-card.svg" alt="imagen de fondo" class="card-header">
             <div class="card-body">
@@ -29,22 +31,20 @@
             <div class="card-pie">
                 <div class="card-pie-social">
                     <h3>80K</h3>
-                    <p>Seguidores</p>
+                    <p>Ataque</p>
                 </div>
                 <div class="card-pie-social">
                     <h3>803</h3>
-                    <p>Likes</p>
+                    <p>Especial</p>
                 </div>
                 <div class="card-pie-social">
                     <h3>1.4K</h3>
-                    <p>Fotos</p>
+                    <p>Defensa</p>
                 </div>
             </div>
         </article>
-    </main>
+    </template>
 
-
-
-    <script></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
